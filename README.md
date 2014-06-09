@@ -1,12 +1,12 @@
 ASA Analyzer
 ============
 
-The ASA Analyzer module was developed in the context of my PhD. It uses the Python programming language and the numpy and matplotlib modules respectively to run the statistical tests and plot the bar-charts and boxplots. The module takes two main responsibilities — the random assignment of subjects to the experimental groups and the analysis of data collected during the experiment. 
+The ASA Analyzer module was developed in the context of my PhD. It uses the `numpy` and `matplotlib` modules respectively to run the statistical tests and plot the bar-charts and boxplots. The module takes two main responsibilities — the random assignment of subjects to the experimental groups and the analysis of data collected during the experiment. Considerable experimenting was done during the development, and I advise you to be critical of this code if trying to apply it for different purposes.
 
 Random Assignment
 -----------------
 
-The module uses python’s pseudo-random number generator to distribute subjects among two experimental groups, and validates the resulting assignment by comparing the grades of the two groups on a set of courses using an independent-samples Mann-Whitney U test. Data about the students and their grades is loaded from a spreadsheet file and the output is a) a comma-separated values (CSV) file with the group assignment, b) a boxplot diagram of the grades and c) latex files with the results of the statistical tests, that were later used to include the results in my dissertation.
+The module uses python's pseudo-random number generator to distribute subjects among two experimental groups, and validates the resulting assignment by comparing the grades of the two groups on a set of courses using an independent-samples Mann-Whitney U test. Data about the students and their grades is loaded from a spreadsheet file and the output is a) a comma-separated values (CSV) file with the group assignment, b) a boxplot diagram of the grades and c) latex files with the results of the statistical tests, that were later used to include the results in my dissertation.
 
 Analysis of Collected Data
 --------------------------
