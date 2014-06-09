@@ -15,6 +15,8 @@ The module loads data collected during the experiment and stored in the local fi
 
 At its core, the ASAAnalyzer module is composed by the classes depicted in the Figure below. The `ASAExperiment` class represents an experiment, with its several experimental groups (`ASAExperimentGroup`) and calculations resulting from a statistical analysis (`ASAExperimentCalculations`). The `run_tests()` method processes the data collected for each experimental group (stored in memory as instances of the `ASADataSet` class) by running the statistical tests and it creates an instance of `ASAExperimentCalculations` that encapsulates all the results (that are also instances of the `ASADataSet` class). The `ASADBDataSet` class represents data that has been loaded directly from a database (i.e., platform activity data, in this case) and provides some behavior specific for that context.
 
+![Core classes of the ASA Analyzer domain model.](https://raw.githubusercontent.com/filipefigcorreia/asaanalyzer/master/docs/asa-analyser-classes.png)
+
 Installing
 ----------
 
