@@ -20,8 +20,8 @@ Installing
 
 Beware that numpy requires gcc 4.0. To compile on Snow Leopard you may need to set the following environment variables before installing numpy ...
 
-> export CC=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.0
-> export CXX=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.0
-> export ARCHFLAGS='-arch i386 -arch x86_64'
+    export CC=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.0
+    export CXX=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.0
+    export ARCHFLAGS='-arch i386 -arch x86_64'
 
 ... but you may need to ensure they are not set before installing matplotlib.
